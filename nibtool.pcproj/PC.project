@@ -1,0 +1,77 @@
+{
+    BUILDER_TARGETS = (
+	all,
+	install,
+	uninstall,
+	clean,
+	distclean,
+	dist
+    );
+    CLASS_FILES = (
+	NIBTool.m
+    );
+    COMPILEROPTIONS = "";
+    CPPOPTIONS = "";
+    CREATION_DATE = "2010-05-30 00:01:29 -0400";
+    DOCU_FILES = (
+    );
+    FRAMEWORKS = (
+    );
+    HEADER_FILES = (
+	NIBTool.h
+    );
+    IMAGES = (
+    );
+    INSTALLDIR = "$(HOME)/GNUstep/Tools";
+    LANGUAGE = English;
+    LIBRARIES = (
+	"gnustep-base",
+	GormCore,
+	Gorm,
+	GormObjCHeaderParser
+    );
+    LINKEROPTIONS = "";
+    LOCALIZED_RESOURCES = (
+    );
+    MAKEFILEDIR = "$(GNUSTEP_MAKEFILES)";
+    OBJC_COMPILEROPTIONS = "";
+    OTHER_RESOURCES = (
+	Version
+    );
+    OTHER_SOURCES = (
+	main.m
+    );
+    PROJECT_AUTHORS = (
+    );
+    PROJECT_COPYRIGHT = "Copyright (C) 200x";
+    PROJECT_COPYRIGHT_DESC = "Released under ...";
+    PROJECT_CREATOR = "heron,,,";
+    PROJECT_DESCRIPTION = "No description available!";
+    PROJECT_GROUP = "No group available!";
+    PROJECT_MAINTAINER = "heron,,,";
+    PROJECT_NAME = nibtool;
+    PROJECT_RELEASE = 0.1;
+    PROJECT_SUMMARY = "No summary available!";
+    PROJECT_TYPE = Tool;
+    PROJECT_URL = "";
+    SEARCH_HEADER_DIRS = (
+    );
+    SEARCH_LIB_DIRS = (
+	"/usr/GNUstep/System/Library/Libraries",
+	"/usr/GNUstep/System/Library/Libraries",
+	"/usr/GNUstep/System/Library/Libraries"
+    );
+    SUBPROJECTS = (
+    );
+    SUPPORTING_FILES = (
+	GNUmakefile.preamble,
+	GNUmakefile,
+	GNUmakefile.postamble,
+	nibtoolInfo.plist
+    );
+    TOOLICON = "";
+    USER_LANGUAGES = (
+	AmericanEnglish,
+	English
+    );
+}
